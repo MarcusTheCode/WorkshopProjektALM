@@ -1,4 +1,4 @@
 package com.company;
 
-public class TempSensor {
+public class TempSensor extends Sensorer {
 }
