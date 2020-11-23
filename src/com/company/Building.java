@@ -11,6 +11,9 @@ public class Building {
     Building(int id){
         this.id = id;
     }
+    public int getId(){
+        return id;
+    }
 
     public void addTempSensor(Sensorer s){
         sensorerList.add(s);

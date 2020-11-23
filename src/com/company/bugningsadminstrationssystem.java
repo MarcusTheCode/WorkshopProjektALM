@@ -5,24 +5,28 @@ import java.util.Scanner;
 
 
 public class bugningsadminstrationssystem {
-
-    Scanner sc = new Scanner(System.in)
-
-
-    public static void main(String[] args) {
-
-    }
-ArrayList buildings = new ArrayList<String>();
+ArrayList<Building> buildings = new ArrayList<>();
+    static Building BCurrent;
 
     public void addbuilding (){
 
-   Building newbuilding = new Building();
+   Building newbuilding = new Building(3);
 
-   buildings.add(newbuilding)
+   buildings.add(newbuilding);
+
 
 
     }
 
+    public void removebuilding (int id){
+        buildings.remove((id));
+    }
+
+    public void getbuilding(int id){
+
+        BCurrent = buildings.indexOf();
+
+    }
 }
 
 
