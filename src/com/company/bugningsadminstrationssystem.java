@@ -5,22 +5,15 @@ import java.util.Scanner;
 
 
 public class bugningsadminstrationssystem {
-
-    Scanner sc = new Scanner(System.in)
-
+    ArrayList buildings = new ArrayList<String>();
 
     public static void main(String[] args) {
 
     }
-ArrayList buildings = new ArrayList<String>();
 
     public void addbuilding (){
-
-   Building newbuilding = new Building();
-
-   buildings.add(newbuilding)
-
-
+        Building newBuilding = new Building(5);
+        buildings.add(newBuilding);
     }
 
 }
